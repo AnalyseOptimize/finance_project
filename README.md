@@ -2,9 +2,15 @@
 Project includes parsing, processing and analysis of financial data as well as building a forecasting ML model
 
 # Navigation
-1) [Step №1. Theme and goal of our project](#The Goal of our Project)
-2) 
+1) [Step №1. Theme and goal of our project](#the-goal-of-our-project)
+2) [Step №2. Data parsing](#data-parsing)
+3) [Step №3. EDA-1: Data processing](#data-processing)
+4) [Step №4. EDA-2: Visualisation](#visualisation)
+5) [Step №5. Feature engineering](#feature-engineering)
+6) [Step №6. Hypotheses](#hypotheses)
+7) [Step №7. Machine Learning](#machine-learning)
 
+   
 # The Goal of our Project
 We want to reach accurate prediction
 тема: предсказание цен акций. 
