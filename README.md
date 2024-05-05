@@ -12,7 +12,7 @@ Project includes parsing, processing and analysis of financial data as well as b
 
    
 # Step №1. The Goal of our Project
-The scope of our project is the financial market. We want to reach accurate prediction for future prices of almost 400 shares of different companies. They were chosen not accidentally: we decided to focus on 4 sectors:
+The scope of our project is the financial market. We want to reach accurate prediction for future prices of more than 400 shares of different companies. They were chosen not accidentally: we decided to focus on 4 sectors:
 * Industrials
 * Renewable Energy
 * Financial Services
