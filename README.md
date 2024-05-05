@@ -2,7 +2,7 @@
 Project includes parsing, processing and analysis of financial data as well as building a forecasting ML model
 
 # Navigation
-1) [Step №1. Theme and goal of our project](# The Goal of our Project)
+1) [Step №1. Theme and goal of our project](#The Goal of our Project)
 2) 
 
 # The Goal of our Project
