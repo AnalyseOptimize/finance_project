@@ -18,10 +18,13 @@ The scope of our project is the financial market. We want to reach accurate pred
 * Financial Services
 * Healthcare
 
+Due to their incohesion, we expect them to be uncorrelated, so models can be trained in each sector separatly. Our final product is a _telegram bot_ that can predict prices.
+
 write in general about models, desired result (how it's going to look like)
 
 # Step №2. Parsing
-Data for the final dataset was taken from: ...
+Data for the final dataset was taken from: [FMP API](https://site.financialmodelingprep.com/developer/docs) (US stock parsing), [Alpha Vantage API](https://www.alphavantage.co/) (US macro statistic), [FED](https://www.newyorkfed.org/markets/reference-rates/effr) (Effective Federal Funds Rate), [CBR](https://www.cbr.ru/statistics/) (Russian monetary statistics), [Federal State Statistics Service](https://eng.rosstat.gov.ru/) (Russian GDP), [ApiMoex](https://pypi.org/project/apimoex/) (RU stock parsing)
+
 Dataset Overview... (write about all features and the logic of adding them for this project)
 
 # Step №3. Data processing
@@ -40,5 +43,5 @@ Dataset Overview... (write about all features and the logic of adding them for t
 Here we've built a forecasting ML model. Description of models + result
 
 # Our team:
-1) Nikita Chuikin (maybe I've made a mistake, sorry)
+1) Nikita Chuikin 
 2) Andrew Nizov
