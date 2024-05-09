@@ -10,6 +10,8 @@ Project includes parsing, processing and analysis of financial data as well as b
 6) [Step №6. Hypotheses](#hypotheses)
 7) [Step №7. Machine Learning](#machine-learning)
 
+# Step №0. Warning(-s) to the reader.
+If you want to run our code, please, start with `pip install -r requirements.txt`
    
 # Step №1. The Goal of our Project
 The scope of our project is the financial market. We want to reach accurate prediction for future prices of more than 400 shares of different companies. They were chosen not accidentally: we decided to focus on 4 sectors.
