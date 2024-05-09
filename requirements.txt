@@ -1,0 +1,14 @@
+pandas_market_calendars
+alpha_vantage
+requests
+bs4
+selenium
+apimoex
+
+warnings
+numpy
+pandas
+os
+time
+datetime
+xml.etree.ElementTree
