@@ -4,6 +4,7 @@ requests
 bs4
 selenium
 apimoex
+pmdarima
 
 warnings
 numpy
