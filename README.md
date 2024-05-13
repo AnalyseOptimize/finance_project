@@ -2,6 +2,12 @@
 Project includes parsing, processing and analysis of financial data as well as building a forecasting ML model
 
 # Navigation
+
+- `final_datasets` - parsed and preprocessed datasets. Prefix "final" in file`s name means this file does not contain missing values. Parsing was done up to 2024-08-05
+- `EDA` - EDA for each sector and hypotheses testing
+- `parsers` - all functions needed to parse stock and macro data
+
+# Content
 1) [Step №1. Theme and goal of our project](#the-goal-of-our-project)
 2) [Step №2. Data parsing](#parsing)
 3) [Step №3. EDA-1: Data processing](#data-processing)
