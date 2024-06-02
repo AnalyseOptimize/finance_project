@@ -5,10 +5,18 @@ bs4
 selenium
 apimoex
 pmdarima
+torch
+numbers
+typing
+__future__
+mtgnn
+lightautoml
+statsmodels
 
 warnings
 numpy
 pandas
+sklearn
 os
 time
 datetime
