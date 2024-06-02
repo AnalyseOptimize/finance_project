@@ -11,6 +11,7 @@ typing
 mtgnn
 lightautoml
 statsmodels
+pytorch-forecasting
 
 warnings
 numpy
