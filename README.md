@@ -1,17 +1,21 @@
-# finance_project
-Project includes parsing, processing and analysis of financial data as well as building a forecasting ML model
+# Forecasting project
+Project includes parsing, processing and analysis of financial data as well as building a forecasting ML model!
 
 # Navigation
 
+- `parsers` - all functions needed to parse stock and macro data
+- `Final_merge.ipynb` - unification of all parts to 4 final datasets (for each sector)
+- `Data processing.ipynb` - processing all data, that we have parsed
 - `final_datasets` - parsed and preprocessed datasets. Prefix "final" in file`s name means this file does not contain missing values. Parsing was done up to 2024-08-05
 - `EDA` - EDA for each sector and hypotheses testing
   - `EDA_macro_data.ipynb` - notebook with macro data analysis
   - `Stock Analysis + Hypothesis Testing.ipynb` - notebook with analysis of stock prices, not marco data and hypothesis testing
-- `parsers` - all functions needed to parse stock and macro data
+- `Make_train_dataset.ipynb` - splitting for train and test dataset for further Machine Learing part
 - `ML models`
   - `Linear_models.ipynb` - training Linear model and ARIMA, trying LightAutoML
   - `MTGNN_experiment_financial.ipynb` - notebook with training MTGNN
   - `Stacking.ipynb` - final simple combining of all models
+- `requirements.txt` - list of all used libraries
 
 # Content
 1) [Step №1. Theme and goal of our project](#the-goal-of-our-project)
