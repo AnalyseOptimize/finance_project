@@ -8,7 +8,6 @@ pmdarima
 torch
 numbers
 typing
-__future__
 mtgnn
 lightautoml
 statsmodels
