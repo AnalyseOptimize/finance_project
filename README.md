@@ -6,6 +6,10 @@ Project includes parsing, processing and analysis of financial data as well as b
 - `final_datasets` - parsed and preprocessed datasets. Prefix "final" in file`s name means this file does not contain missing values. Parsing was done up to 2024-08-05
 - `EDA` - EDA for each sector and hypotheses testing
 - `parsers` - all functions needed to parse stock and macro data
+- `ML models`
+-    - `Linear_models.ipynb` - training Linear model and ARIMA, trying LightAutoML
+     - `MTGNN_experiment_financial.ipynb` - notebook with training MTGNN
+     - `Stacking.ipynb` - final simple combining of all models
 
 # Content
 1) [Step №1. Theme and goal of our project](#the-goal-of-our-project)
@@ -37,18 +41,20 @@ Dataset Overview... (write about all features and the logic of adding them for t
 
 # Step №3. Data processing
 
+It's a technical step to handle parsed data and make datasets for ML part.
 
-# Step №4. Visualisation
+# Step №4. Visualisation, Hypotheses Testing
 
+The main scope of this step is to evalute either particular features valuable for predicting stock prices or not. [Granger causality test](https://en.wikipedia.org/wiki/Granger_causality) and correlation were used. You can find it `EDA` folder.  
 
-# Step №5. Feature engineering
-
-
-# Step №6. Hypotheses
-
+As new categorical features we added day of the week. 
 
 # Step №7. Machine Learning
-Here we've built a forecasting ML model. Description of models + result
+
+Our general pipeline includes 2 linear models (ARIMA and linear regression trained on compressed data) and MTGNN architecture. On outputs of three models bleding is used (stacking with linear regression as a metamodel).
+
+Later we will incorporate more neural networks and train linear models more accurately. Also, all framework will be included in scikit-learn-like pipeline to host it on cloud platforms and perform online learning.
+
 
 # Our team:
 1) Nikita Chuikin 
