@@ -35,6 +35,7 @@ P.S. Now there is no _telegram bot_, but we will finish it some day!!!
 
 # Step №2. Parsing
 > Folder for this step: [parsers](https://github.com/AnalyseOptimize/finance_project/tree/main/parsers)
+
 Data for the final dataset was taken from: [FMP API](https://site.financialmodelingprep.com/developer/docs) (US stock parsing), [Alpha Vantage API](https://www.alphavantage.co/) (US macro statistic), [FED](https://www.newyorkfed.org/markets/reference-rates/effr) (Effective Federal Funds Rate), [CBR](https://www.cbr.ru/statistics/) (Russian monetary statistics), [Federal State Statistics Service](https://eng.rosstat.gov.ru/) (Russian GDP), [ApiMoex](https://pypi.org/project/apimoex/) (RU stock parsing)
 
 Our results of this step are:
@@ -44,6 +45,7 @@ Our results of this step are:
 
 # Step №3. Data processing
 > Files for this step: [Data processing.ipynb](https://github.com/AnalyseOptimize/finance_project/blob/main/Data%20processing.ipynb) and [Final_merge.ipynb](https://github.com/AnalyseOptimize/finance_project/blob/main/Final_merge.ipynb)
+
 It's a technical step to handle parsed data and make datasets for ML part. On par with other methods we have used ARIMA model, as a way to process some NaNs.
 **Variables added at this stage:**
 * **gap_hl** for IMOEX and S&P500, which shows the gap between high and low prices. This
@@ -51,6 +53,7 @@ It's a technical step to handle parsed data and make datasets for ML part. On pa
 
 # Step №4. Visualisation, Hypotheses Testing
 > Folder for this step: [EDA](https://github.com/AnalyseOptimize/finance_project/tree/main/EDA)
+
 The main scope of this step is to evalute either particular features valuable for predicting stock prices or not. [Granger causality test](https://en.wikipedia.org/wiki/Granger_causality) and correlation were used.  
 As new categorical features we added day of the week.
 Hypotheses were checked in the level of confidence of 1%.
@@ -66,6 +69,7 @@ Hypotheses were checked in the level of confidence of 1%.
 
 # Step №5. Machine Learning
 > [Folder](https://github.com/AnalyseOptimize/finance_project/tree/main/ML%20models) and [preparation file](https://github.com/AnalyseOptimize/finance_project/blob/main/Make_train_dataset.ipynb)
+
 Our general pipeline includes 2 linear models (ARIMA and linear regression trained on compressed data) and MTGNN architecture. On outputs of three models bleding is used (stacking with linear regression as a metamodel).
 
 Later we will incorporate more neural networks and train linear models more accurately. Also, all framework will be included in scikit-learn-like pipeline to host it on cloud platforms and perform online learning.
