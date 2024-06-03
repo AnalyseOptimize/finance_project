@@ -17,6 +17,8 @@ Project includes parsing, processing and analysis of financial data as well as b
   - `Stacking.ipynb` - final simple combining of all models
 - `requirements.txt` - list of all used libraries
 
+Training datasets one can [find here](https://drive.google.com/drive/folders/1NNz_YtY8a6uHx_Gv76cgj6aCBiqxgrt8?usp=sharing).
+
 # Content
 1) [Step №1. Theme and goal of our project](#the-goal-of-our-project)
 2) [Step №2. Data parsing](#parsing)
