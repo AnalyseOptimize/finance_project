@@ -54,7 +54,7 @@ Our results of this step are:
 
 It's a technical step to handle parsed data and make datasets for ML part. On par with other methods we have used ARIMA model, as a way to process some NaNs.
 **Variables added at this stage:**
-* **gap_hl** for IMOEX and S&P500, which shows the gap between high and low prices. This
+* **gap_hl** for IMOEX and S&P500, which shows the gap between high and low prices.
 * **gap_co** for IMOEX and S&P500, which shows the gap between close and open prices.
 
 # Step №4. Visualisation, Hypotheses Testing
